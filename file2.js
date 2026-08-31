@@ -40,3 +40,8 @@ domin += tld;
 domin = protokol + domin;
 
 console.log(domin);
+const link = document.getElementById("domain333");
+
+link.href = domin;
+link.textContent = domin;
+link.style.color = "green";
