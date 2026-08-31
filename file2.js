@@ -1,3 +1,4 @@
+{
 const bukvj = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
 
 const tldnum = Math.floor(Math.random() * 2) + 2;
@@ -45,3 +46,4 @@ const link = document.getElementById("domain333");
 link.href = domin;
 link.textContent = domin;
 link.style.color = "green";
+}
